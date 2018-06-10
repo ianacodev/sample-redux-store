@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebe5e5;
+  font-family: 'Open Sans';
+}
+
+.title {
+  font-size: 38px;
+  text-align: center;
+}
+
+.card-container {
+  padding: 15px;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-shadow: 1px 1px 8px lightgrey;
+  display: inline-block;
+  height: 350px;
+  margin: 0 15px;
+  width: 330px;
+}
+
+.card-title {
+  background-color: #0c97a1;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-body {
+  position: relative;
+  height: 300px;
+}
+
+.detail-container {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+}
+
+.detail {
+  border: solid lightgrey;
+  border-width: 1px 0 1px 0;
+  padding: 10px;
+}
+
+.detail-key {
+  display: inline-block;
+  text-align: left;
+  width: 49%;
+}
+
+.detail-value {
+  display: inline-block;
+  text-align: right;
+  width: 49%;
+}
+
+.action-container {
+  margin: 15px;
+}
+
+.btn {
+  background-color: #f26a03;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px lightgrey;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
